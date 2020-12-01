@@ -1,0 +1,18 @@
+[
+    {
+        "slidePath": "../render/mockups",
+        "name": "mockups",
+        "id": "XUMZMKMMAY",
+        "state": "mockups",
+        "children": [
+            {
+                "slidePath": "../render/mockups/CMEBOCIEEO",
+                "name": "CMEBOCIEEO",
+                "id": "CMEBOCIEEO",
+                "state": "mockups/CMEBOCIEEO",
+                "index": "\u0004",
+                "component": "CMEBOCIEEO"
+            }
+        ]
+    }
+]

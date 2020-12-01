@@ -1,0 +1,25 @@
+{
+	"name": "slides-bare-angular",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"finder": "node finder/run-slides-finder.js",
+		"startFinder": "npm run start --prefix finder/node_modules/slides-finder",
+		"render": "node render/run-slides-render.js",
+		"startRender": "npm run start --prefix render/node_modules/slides-render-angular",
+		"deployTest": "node deploy-test.js",
+		"deployCssberries": "node deploy-cssberries.js",
+		"deployProd": "node deploy-prod.js",
+		"deployFinder": "npm run deployFinder --prefix finder/node_modules/slides-finder",
+		"deployRender": "npm run deployRender --prefix render/node_modules/slides-render-angular"
+	},
+	"author": "",
+	"dependencies": {
+		"@angular/cli": "^10.1.0",
+		"cross-var": "^1.1.0",
+		"dotenv": "^8.2.0",
+		"npm": "^6.14.8"
+	},
+	"license": "ISC"
+}
