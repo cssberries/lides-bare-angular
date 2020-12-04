@@ -6,7 +6,7 @@
 		"cross-var": "^1.1.0",
 		"dotenv": "^8.2.0",
 		"npm": "^6.14.8",
-		"slides-render-angular": "6.0.0"
+		"slides-render-angular": "6.1.0"
 	},
 	"license": "ISC"
 }

@@ -5,12 +5,13 @@
 	"main": "index.js",
 	"scripts": {
 		"finder": "node finder/run-slides-finder.js",
+		"linkFinder": "cd finder && npm link slides-finder",
+		"linkRender": "cd render && npm link slides-render-angular",
+		"link": "npm run linkFinder && npm run linkRender",
 		"startFinder": "npm run start --prefix finder/node_modules/slides-finder",
 		"render": "node render/run-slides-render.js",
 		"startRender": "npm run start --prefix render/node_modules/slides-render-angular",
-		"deployTest": "node deploy-test.js",
-		"deployCssberries": "node deploy-cssberries.js",
-		"deployProd": "node deploy-prod.js",
+		"deploy": "node deploy-cssberries.js",
 		"deployFinder": "npm run deployFinder --prefix finder/node_modules/slides-finder",
 		"deployRender": "npm run deployRender --prefix render/node_modules/slides-render-angular"
 	},

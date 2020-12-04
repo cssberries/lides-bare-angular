@@ -5,8 +5,12 @@
 
 # dependencies
 /node_modules
-finder/node_modules
-render/node_modules
+
+/finder/node_modules
+/finder/slides-list.module.ts
+
+/render/node_modules
+/render/slides-list.module.ts
 
 # profiling files
 chrome-profiler-events.json
